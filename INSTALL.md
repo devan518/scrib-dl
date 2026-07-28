@@ -1,11 +1,9 @@
 # HOW TO INSTALL
 
-run these commands:
+Ensure you have Python and pipx installed.
 
-```
-pipx install --include-deps "git+https://github.com/devan518/scrib-dl.git"
+```powershell
+pipx install --include-deps scrib-dl
 playwright install chromium
 scrib-dl
 ```
-
-Ensure you have pipx installed!
